@@ -7,6 +7,7 @@ import { filterBySpecies } from './data.js';
  document.getElementById("filter").style.display = "block";
  document.getElementById("customResult").style.display = "none";
 
+
  //"fetch" to fetch the data
 const URL = "./data/rickandmorty/rickandmorty.json";
 async function getData(url) {

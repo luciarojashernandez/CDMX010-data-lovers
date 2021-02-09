@@ -1,21 +1,8 @@
-// import { example, anotherExample } from '../src/data.js';
+
 import { filterByGender } from '../src/data.js';
 import { filterByStatus } from '../src/data.js';
 import { filterBySpecies } from '../src/data.js';
 import {dataMock} from './dataMock.js'
-// import {target} from './helpers.js'
-
-// describe('This colection is example',()=>{
-//   it('validate funtion suma 2+4=6',()=>{
-//       expect(suma(2,4)).toBe(6)
-//   })
-//   it('validate error',()=>{
-//       expect(suma("Ilse","Lu")).toBe(6)
-//   })
-//   it('validate with data',()=>{
-//       expect(suma(data.a,data.b)).toBe(30)
-//   })
-// })
 
 describe("the filter should return the data",()=>{
   it("filterByGender should return the selected gender", ()=>{
