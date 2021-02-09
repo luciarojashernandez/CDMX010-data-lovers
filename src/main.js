@@ -24,11 +24,6 @@ function filterByCategory (data) {
 
   filtros.forEach(filtro => {
     filtro.addEventListener("click", function(event){
-      //event.preventDefault();
-      // console.log('click');
-      // console.log(event);
-      // console.log('event.target.id', event.target.id);
-      // console.log('event parent', event.target.parentElement.id);
 
       let target;
       if(event.target.parentElement.id === 'gender'){
@@ -53,7 +48,6 @@ function filterByCategory (data) {
       imprimirData(target);
       showSection();
       orderTarget(target);
-      // showSection(event.target.id);
     })
   });      
 }
@@ -123,25 +117,5 @@ const imprimirData = (datos) => {
       imprimirData(orderResult);
     }));  
   }
-
-
-
-
-  
-  // else if(orderZA.addEventListener("click", function(){
-  //   orderResult = datos.sort(function (a,b) {
-  //     if (b.name > a.name){
-  //       return 1;
-  //     }
-  //     if (b.name < a.name){
-  //       return -1;
-  //     }
-  //     return 0;
-  //   });
-  //   console.log("click", orderResult);
-  //   imprimirData(orderResult);
-  // }));   
-
-
 
     
