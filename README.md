@@ -52,13 +52,13 @@ Las historias de usuario fueron creadas entendiendo las necesidades de los usuar
 **- Yo como usuario quiero poder regresar a la pantalla de inicio con un botón.**
 
 #### Diseño de la interfaz del usuario
-![](display1.jpg)
+
 ##### Prototipo de baja fidelidad
-![](miro.jpg)
+![baja fidelidad](miro.png)
 ##### Prototipo de alta fidelidad
-![](display1.jpg)
-![](display2.jpg)
-![](display3.jpg)
+![alta fidelidad](display1.jpg)
+![alta fidelidad](display2.jpg)
+![alta fidelidad](display3.jpg)
 ##### Pruebas unitarias
 
 En esta fase del proyecto se realizaron pruebas unitarias de las funciones de filtrado.
