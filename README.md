@@ -41,7 +41,7 @@ El objetivo principal de este proyecto fue el de aprender a diseñar y construir
 interfaz web donde se pueda visualizar y manipular data, entendiendo lo que el
 usuario necesita.
 
-### 4. Criterios de aceptación
+### 4. Criterios de aceptación del proyecto
 #### Historias de usuario
 Las historias de usuario fueron creadas entendiendo las necesidades de los usuarios, para esta primera etapa del proyecto se desarrollaron las siguientes:
 
@@ -52,13 +52,13 @@ Las historias de usuario fueron creadas entendiendo las necesidades de los usuar
 **- Yo como usuario quiero poder regresar a la pantalla de inicio con un botón.**
 
 #### Diseño de la interfaz del usuario
-![](display1.jpg)
+
 ##### Prototipo de baja fidelidad
-![](miro.jpg)
+![](/src/images/miro.png)
 ##### Prototipo de alta fidelidad
-![](display1.jpg)
-![](display2.jpg)
-![](display3.jpg)
+![](/src/images/display1.jpg)
+![](/src/images/display2.jpg)
+![](/src/images/display3.jpg)
 ##### Pruebas unitarias
 
 En esta fase del proyecto se realizaron pruebas unitarias de las funciones de filtrado.
